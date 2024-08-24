@@ -1,0 +1,289 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+.navbar{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    background-color: #022b3a;
+}
+
+.navmenu{
+    padding-left: 100px;
+    display: flex;
+    gap: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.navmenu div{
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.navbutton div{
+    background-color: #1f7a8c;
+    padding: 15px 20px;   
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 0px  20px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.navbutton{
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
+    gap: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section1{
+    width: 100%;
+    height:600px;
+    position: absolute;
+    background-image: url("back-tiffin.jpg");
+    background-repeat: no-repeat;
+    top: 100px;
+    background-size:cover;
+}
+.hero{
+    width: 900px;
+    height: 500px;
+    background-color:transparent;
+    color: #f8f9fa;
+    margin-left: 37vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.hero .hed1{
+    font-family:Chalkduster;
+    font-weight: bolder;
+    
+    font-size: 90px;
+}
+.hero .hed2{
+    font-size: 40px;
+    font-family: cursive;
+    color: #f4e285;
+}
+.hero .hed3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #dddd;
+}
+/* ---------------section2-------------- */
+
+.sepration{
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    top: 687px;
+    background-color: #040404;
+}
+.section2{
+    width:100vw;
+    height: 600px;
+    position: absolute;
+    top: 700px;
+    background-image:linear-gradient(rgba(183, 198, 204, 0.679),#c2c5aa);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 100px;
+}
+.sec2img{
+    width: 40vw;
+    height: 450px;
+    background-color: #785964;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historyinf{
+    width: 40vw;
+    height: 450px;
+    background-color: #022b3a;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.sec2img img{
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 19px black;
+}
+.historyinf .hist1{
+    width: 500px;
+    height: 70px;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.historyinf .hist2{
+    width: 500px;
+    height: 250px;
+    border-radius: 12px;
+    background-color: #b4b8ab;
+    box-shadow: 0px 0px 20px rgb(12, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: #0f0101;
+}
+/* --------------section3----------- */
+.sepration2{
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    top: 1300px;
+    background-color: #040404;
+}
+.section3{
+    height: 600px;
+    width: 100vw;
+    background-color: #1b263b;
+    position: absolute;
+    top: 1313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.sec3l1{
+    width: 100vw;
+    height: 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #eef4ed;
+}
+.sec3plan{
+    width: 100vw;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec3plan .plan1,.plan2,.plan3{
+    width: 25vw;
+    height: 300px;
+    background-color: #f4e285;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 20px;
+}
+.plan1 p,.plan2 p,.plan3 p{
+    font-family: cursive;
+    font-size:20px;
+    text-align:center;
+}
+.plan1 button,.plan2 button,.plan3 button{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right,#9ef01a,#38b000,#006400);
+    position: absolute;
+    top: 480px;
+    border-radius: 12px;
+    border:0;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.755);
+    font-weight: bolder;
+}
+.sepration3{
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    top: 1900px;
+    background-color: #040404;
+}
+footer{
+    width: 100vw;
+    height: 400px;
+    position:absolute;
+    top: 1913px;
+    background-image: url("back-tiffin.jpg");
+    background-size: cover;
+}
+.shadow{
+    width: 100vw;
+    height: 400px;
+    position:absolute;
+    top: 0px;
+    background-color:black;
+    z-index: 1;
+    opacity: 0.74;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footbox1,.footbox2,.footbox3{
+    width: 25vw;
+    height: 300px;
+    background-color:transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footbox1 a,.footbox2 a,.footbox3 a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    color: white;
+}
+.footbox1 h2,.footbox2 h2,.footbox3 h2{
+    color: #09ff00;
+}
+.sepration4{
+    width: 100vw;
+    height: 40px;
+    position: absolute;
+    top: 365px;
+    background-color: black;
+    color: #ddddddc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    gap: 10px;
+}
